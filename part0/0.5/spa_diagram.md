@@ -1,23 +1,18 @@
-## New note diagram
+## Single page app diagram
 
 &nbsp;
 
 ```mermaid
 
 sequenceDiagram
-participant browser
-participant server
+    participant user
+    participant browser
+    participant server
 
-    Note right of browser: After clicking form submit button the browser starts executing the JavaScript code that sends a POST request to create a new note <br> with entered in the input field data and auto generated date: { "content": "Some note", date: "2023-04-17T11:32:03.167Z" }
+    user->>browser: goes on https://studies.cs.helsinki.fi/exampleapp/spa
+    activate browser
 
-    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/create_note
-    activate server
-    server-->>browser: Status code 201, if the new note creation was succesfull.
-    deactivate server
-
-    Note right of browser: The browser receives a confirmation from the server that the new notes has been created
-
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate server
     server-->>browser: HTML document
     deactivate server
@@ -40,6 +35,5 @@ participant server
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
-
 
 ```
