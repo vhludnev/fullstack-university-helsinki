@@ -1,0 +1,6 @@
+- Answers for Part2 exercises 2.1 - 2.5 are located in **collections** directory
+- Answers for Part2 exercises 2.6 - 2.10 are located in **phonebook** directory
+- Answer for Part2 exercise 2.11 is located in **server** directory
+- Answers for Part2 exercises 2.12 - 2.15 are located in **rest** directory
+- Answers for Part2 exercises 2.16 - 2.17 are located in **notification** directory
+- Answers for Part2 exercises 2.18 - 2.20 are located in **countries** directory
