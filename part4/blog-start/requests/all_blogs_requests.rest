@@ -1,0 +1,17 @@
+@hostname = http://localhost
+@port = 3003
+@baseUrl = {{hostname}}:{{port}}/api
+
+###
+POST {{baseUrl}}/blogs
+content-type: application/json
+
+{
+    "title": "Postman is good in testing backend",
+    "author": "VH",
+    "url": "https://wwww.example.com",
+    "likes": 2
+}
+
+###
+GET {{baseUrl}}/blogs

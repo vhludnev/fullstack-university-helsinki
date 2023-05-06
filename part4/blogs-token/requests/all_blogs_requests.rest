@@ -1,0 +1,21 @@
+@baseUrl = http://localhost:3003/api
+
+###
+POST {{baseUrl}}/blogs
+Content-Type: application/json
+Authorization: Bearer eyQWbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZqaGx1ZG5ldiIsImlkIjoiNjQ1NTA5MzEwNDlkYzNlMjc3MmUwNDIwIiwiaWF0IjoxNjgzMzYwMzU0LCJleHAiOjE2ODMzNjc1NTR9.s6yaOP9e_yD5-zV3-FDkzv2qzlQIREvyhbo3e4o5xT0
+
+{
+    "title": "Token testing in backend",
+    "author": "VH",
+    "url": "https://wwww.exampleStar.com",
+    "likes": 3,
+    "userId": "64552745ecd813e1ea0fd227"
+}
+
+###
+GET {{baseUrl}}/blogs
+
+###
+DELETE {{baseUrl}}/blogs/64552745ecd813e1ea0fd227
+Authorization: Bearer eyQWhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZqaGx1ZG5ldiIsImlkIjoiNjQ1NTA5MzEwNDlkYzNlMjc3MmUwNDIwIiwiaWF0IjoxNjgzMzEzMjU1LCJleHAiOjE2ODMzMTY4NTV9.saC5JYxBYZ6fcvFHZHs42zEMC8xzfDkODXIKk758-k0
