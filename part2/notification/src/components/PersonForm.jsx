@@ -15,6 +15,12 @@ const PersonForm = ({ persons, updatePersons, updateMessage }) => {
 
   const addPerson = event => {
     event.preventDefault()
+    // console.log(newName, newNumber)
+    // if (!newName || !newNumber) {
+    //   updateMessage("error", "Fill in all fields")
+    //   return setTimeout(() => updateMessage(null), 5000)
+    // }
+
     const personObject = {
       name: newName,
       number: newNumber,

@@ -3,7 +3,7 @@
 ###
 POST {{baseUrl}}/blogs
 Content-Type: application/json
-Authorization: Bearer eyQWbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZqaGx1ZG5ldiIsImlkIjoiNjQ1NTA5MzEwNDlkYzNlMjc3MmUwNDIwIiwiaWF0IjoxNjgzMzYwMzU0LCJleHAiOjE2ODMzNjc1NTR9.s6yaOP9e_yD5-zV3-FDkzv2qzlQIREvyhbo3e4o5xT0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY0NTUwOGQ3MDQ5ZGMzZTI3NzJlMDQxYiIsImlhdCI6MTY4Mzk4MjM3NCwiZXhwIjoxNjgzOTg5NTc0fQ.YuuGSFZOP-zhkbYcGk4TV-G_Qi8fcMrcCmRBtPPly68
 
 {
     "title": "Token testing in backend",
@@ -17,5 +17,19 @@ Authorization: Bearer eyQWbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZqa
 GET {{baseUrl}}/blogs
 
 ###
-DELETE {{baseUrl}}/blogs/64552745ecd813e1ea0fd227
-Authorization: Bearer eyQWhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZqaGx1ZG5ldiIsImlkIjoiNjQ1NTA5MzEwNDlkYzNlMjc3MmUwNDIwIiwiaWF0IjoxNjgzMzEzMjU1LCJleHAiOjE2ODMzMTY4NTV9.saC5JYxBYZ6fcvFHZHs42zEMC8xzfDkODXIKk758-k0
+PUT {{baseUrl}}/blogs/645f2eb5a8ff862ee90c0ed8
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY0NTUwOGQ3MDQ5ZGMzZTI3NzJlMDQxYiIsImlhdCI6MTY4Mzk4MjM3NCwiZXhwIjoxNjgzOTg5NTc0fQ.YuuGSFZOP-zhkbYcGk4TV-G_Qi8fcMrcCmRBtPPly68
+
+{
+    "title": "some",
+    "author": "author",
+    "url": "urlll",
+    "likes": 4,
+    "userId": "64550931049dc3e2772e0420"
+}
+
+
+###
+DELETE {{baseUrl}}/blogs/645f7f262fb2eb64d7c10ff9
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY0NTUwOGQ3MDQ5ZGMzZTI3NzJlMDQxYiIsImlhdCI6MTY4Mzk4MjM3NCwiZXhwIjoxNjgzOTg5NTc0fQ.YuuGSFZOP-zhkbYcGk4TV-G_Qi8fcMrcCmRBtPPly68

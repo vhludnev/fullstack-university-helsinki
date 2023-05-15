@@ -1,0 +1,5 @@
+- Answers for Part5 exercises 5.1 - 5.4 are located in **login-bloglist** directory
+- Answers for Part5 exercises 5.5 - 5.11 are located in **blog-update-remove** directory
+- Answer for Part5 exercise 5.12 is located in **eslint-props** directory
+- Answers for Part5 exercises 5.13 - 5.16 are located in **testing-jest** directory
+- Answers for Part5 exercises 5.17 - 5.23 are located in **testing-cypress** directory
