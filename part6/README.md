@@ -1,0 +1,8 @@
+- Answers for Part6 exercises 6.1 - 6.2 are located in **redux-basis** directory
+- Answers for Part6 exercises 6.3 - 6.8 are located in **redux-anecdotes** directory
+- Answer for Part6 exercise 6.9 is located in **redux-filter** directory
+- Answers for Part6 exercises 6.10 - 6.13 are located in **redux-toolkit** directory
+- Answers for Part6 exercises 6.14 - 6.15 are located in **redux-database** directory
+- Answers for Part6 exercises 6.16 - 6.19 are located in **redux-thunk** directory
+- Answers for Part6 exercises 6.20 - 6.22 are located in **react-query** directory
+- Answers for Part6 exercises 6.23 - 6.24 are located in **react-query-context** directory
