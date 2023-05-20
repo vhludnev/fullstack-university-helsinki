@@ -1,0 +1,5 @@
+- Answers for Part7 exercises 7.1 - 7.3 are located in **react-router** directory
+- Answers for Part7 exercises 7.4 - 7.6 are located in **custom-hooks** directory
+- Answer for Part7 exercise 7.7 is located in **custom-hook-country** directory
+- Answer for Part7 exercise 7.8 is located in **custom-hook-useresourse** directory
+- Answers for Part7 exercises 7.9 - 7.21 are located in **massive-exercise** directory
