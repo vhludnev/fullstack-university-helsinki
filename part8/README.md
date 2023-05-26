@@ -1,0 +1,5 @@
+- Answers for Part8 exercises 8.1 - 8.7 are located in **graphql-schema** directory
+- Answers for Part8 exercises 8.8 - 8.12 are located in **graphql-react** directory
+- Answers for Part8 exercises 8.13 - 8.16 are located in **graphql-login** directory
+- Answers for Part8 exercises 8.17 - 8.22 are located in **graphql-cache** directory
+- Answers for Part8 exercises 8.23 - 8.26 are located in **graphql-refactoring** directory
