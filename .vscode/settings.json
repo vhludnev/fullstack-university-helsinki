@@ -1,3 +1,9 @@
 {
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "eslint.workingDirectories": [
+    "./part9",
+    "./part9_backend",
+    "./part9_frontend",
+    "./part9_flight"
+  ]
 }
